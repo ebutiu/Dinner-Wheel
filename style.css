@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fefefe;
+}
+.wheel-container {
+  position: relative;
+  display: inline-block;
+}
+.pointer {
+  font-size: 24px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+canvas {
+  border: 5px solid #333;
+  border-radius: 50%;
+}
+button {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
